@@ -1,0 +1,10 @@
+<!--pages/my/my.wxml-->
+
+<view class="profile-info" bindtap="goLogin">
+  <!-- <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" class='btn-login'>授权登录</button>
+    <view wx:else>请升级微信版本</view> -->
+  <open-data type="userAvatarUrl" class="avatar"></open-data>
+  <view class="info">
+    <open-data type="userNickName" class="name"></open-data>
+  </view>
+</view>
